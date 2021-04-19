@@ -26,7 +26,7 @@ public class AddStaff extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      */
     public AddStaff() {
-        super();
+       // super();
         // TODO Auto-generated constructor stub
     }
 
@@ -65,7 +65,7 @@ public class AddStaff extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		//doGet(request, response);
+		doGet(request, response);
 	}
 
 }
